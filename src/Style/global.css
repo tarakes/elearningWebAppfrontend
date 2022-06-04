@@ -1,0 +1,89 @@
+.navigationmenu{
+    margin-left:25%;
+     padding-bottom:5%;
+     width: 500px;
+}
+.logoutbutton{
+    float:right;
+     margin-top:-95px
+}
+.broadcast{
+    margin-left:25%
+}
+.createassignment{
+    margin-left:25%
+}
+.skltnbroadcast{
+    margin-left: 30%;
+}
+.loginbutton{
+    margin-left:30%;
+    margin-top:20%
+}
+.allcontact{
+    width:30%
+}
+@media only screen and (max-width: 400px){
+.loginbutton{
+    margin-left: 22%;
+    margin-top: 70%;
+
+}
+.joinclass{
+    margin-top: 30%;
+}
+.joinclass button{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+.createclass{
+    margin-top: 30%;
+}
+.allcontact{
+    width: 95%;
+    height: 100%;
+    
+    max-height: 186px;
+    overflow: scroll;
+}
+.createclass button{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+.navigationmenu{
+    margin-left: 0%;
+    width: 105%;
+   margin-top: 11%;
+}
+.broadcast{
+margin-left: 10%;
+margin-top: 8%
+}
+.skltnbroadcast{
+    margin-left: 10%;
+}
+
+.logoutbutton{
+    margin-top:-32%;
+}
+.skltnassignment{
+    width: 1000px;
+}
+.createassignment{
+    width: 146%;
+    margin-left: 1%;
+}
+.createassignment textarea{
+    width: 20%;
+}
+.mycontact{
+    margin-top: 53%;
+    margin-left: -91%;
+    
+    max-height: 186px;
+}
+.chatbox{
+    margin-left: -181px;
+    margin-top: 100%;
+}
+}
