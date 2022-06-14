@@ -31,7 +31,7 @@ export default function Classroom(){
 React.useEffect(()=>{
   const gotologin=setTimeout(()=>{
     Navigate("/")
-  },5000);
+  },10000);
   const auth = getAuth();
   onAuthStateChanged(auth, (user) => {
     if (user) {

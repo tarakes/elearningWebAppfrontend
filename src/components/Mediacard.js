@@ -58,6 +58,7 @@ setloading(true);
   else{
   setS("submission failed!");
   }
+  console.log(isS);
   setloading(false);
 } catch (error) {
   setS("submission failed!");
@@ -105,7 +106,8 @@ setloading(true);
   return(
 <>
 
-{isS!=="" && <Alert severity="success" style={{float: "left",marginTop: "-211px",marginLeft: "-64%"}}>{isS}</Alert>}
+{ isS && <Alert severity="success" style={{width: "200px"}}>{isS}</Alert>}
+
 <input hidden  id="icon-button-file" onChange={fileUpload} type="file"/>
                         
                    { !myfile &&    <label htmlFor="icon-button-file" style={{
@@ -124,8 +126,8 @@ setloading(true);
                     </label> }
                     
                     {  myfile && prog===0 &&  <Button onClick={uploadToFirebase} style={{marginLeft:"25%"}}>UPLOAD FILE</Button> }
-              <div></div>      {prog!==0 && <CircularStatic value={prog} style={{ marginLeft:"25%"}} /> }
-                    {prog===100 && isS==="" && <Button variant="contained"   disabled={loading} onClick={storemyurl} style={{marginTop:"5%",marginLeft:"25%"}} >
+              <div></div>      {prog!==0 && <CircularStatic value={prog} style={{ marginLeft:"30%"}} /> }
+                    {prog===100 && isS==="" && myurl && <Button variant="contained"   disabled={loading} onClick={storemyurl} style={{marginTop:"5%",marginLeft:"25%"}} >
                       Submit
         </Button>}
 </>
