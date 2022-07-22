@@ -1,3 +1,24 @@
+# elearningWebApplication
+
+```ELearning Web application using MERN stack, Firebase.```
+
+```It has role based access for teacher and student using custom claim.```
+
+_Option available( for Logged in user)_
+
+```>1.Create class(anyone)``` 
+```>2.Join class(anyone) ```
+```>3.Create assignment(teacher) ```
+```>4.Submit assignment(student) ```
+```>5.View student's submission(teacher)``` 
+```>5.Annoucement(anyone) ```
+```>6.Personal chat(anyone) ```
+```>7.Video conference(based on Mesh methodology) (anyone)```
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
